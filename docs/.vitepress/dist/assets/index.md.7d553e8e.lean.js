@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,O as r}from"./chunks/framework.e1a5f562.js";const m=JSON.parse('{"title":"study blog 知识点按一下进行放置分类","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),o={name:"index.md"},i=r("",9),s=[i];function h(l,n,c,d,u,_){return t(),e("div",null,s)}const p=a(o,[["render",h]]);export{m as __pageData,p as default};
