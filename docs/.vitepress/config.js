@@ -20,8 +20,27 @@ export default defineConfig({
         text: "Javascript",
         collapsed: true,
         items: [
-          { text: "BOM", link: "/javascript/bom" },
+          {
+            text: "BOM",
+            collapsed: true,
+            items: [
+              {
+                text: "window",
+                link: "/javascript/dom/window",
+              },
+            ],
+          },
           { text: "DOM", link: "/javascript/dom" },
+          {
+            text: "七、迭代器与生成器",
+            link: "/javascript/iteration-generator/index",
+            items: [
+              {
+                text: "理解迭代器",
+                link: "/javascript/iteration-generator/concept",
+              },
+            ],
+          },
         ],
       },
     ],
