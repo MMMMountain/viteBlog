@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 export default defineConfig({
-  title: "ldf-blog",
+  title: "LDF",
   titleTemplate: "Vite & Vue powered static site generator",
   description: "A VitePress site",
   lastUpdatedText: "Updated Date",
@@ -34,12 +34,14 @@ export default defineConfig({
           {
             text: "七、迭代器与生成器",
             link: "/javascript/iteration-generator/index",
-            items: [
-              {
-                text: "理解迭代器",
-                link: "/javascript/iteration-generator/concept",
-              },
-            ],
+          },
+          {
+            text: "八、对象、类与面向对象编程",
+            link: "/javascript/object-class/index",
+          },
+          {
+            text: "九、代理与反射",
+            link: "/javascript/proxy-reflect/index",
           },
         ],
       },
