@@ -52,6 +52,13 @@
 
 # 创建对象
 
+- 对象迭代
+  - Object.values()返回对象值的数组
+  - Object.entries()返回键/值对的数组。
+  - Object.keys( )返回对象key的数组
+  - Symbol 符号属性会被忽略
+
+
 # 继承
 
 # 类
