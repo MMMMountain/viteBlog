@@ -103,12 +103,33 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: "一、面向对象的 JavaScript",
+            link: "/design-mode/object-javascript/index",
+          },
+          {
+            text: "二、this、call 和 apply",
+            link: "/design-mode/this-call-apply/index",
+          },
+          {
+            text: "三、闭包和高阶函数",
+            link: "/design-mode/closure-function/index",
+          },
+
+          {
             text: "十八、单一职责",
             link: "/design-mode/srp/index",
           },
           {
             text: "十九、最少知识原则",
             link: "/design-mode/less-knowledge-principle/index",
+          },
+          {
+            text: "二十、开放-封闭原则",
+            link: "/design-mode/open-close-principle/index",
+          },
+          {
+            text: "二十二、代码重构",
+            link: "/design-mode/ code-refactor/index",
           },
         ],
       },
