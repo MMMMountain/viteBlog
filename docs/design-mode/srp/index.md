@@ -40,7 +40,7 @@
     // 直接创建
     myImage.setSrc('xxxxx')
     //代理创建
-    proxyImage.Src('xxxx')
+    proxyImage.setSrc('xxxx')
 ```
 
 - 案例2 根据ajax数据生产元素

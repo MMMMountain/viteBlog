@@ -113,8 +113,15 @@ export default defineConfig({
           {
             text: "三、闭包和高阶函数",
             link: "/design-mode/closure-function/index",
+          }, 
+          {
+            text: "四、单例模式",
+            link: "/design-mode/single-instance/index",
           },
-
+          {
+            text: "四、策略模式",
+            link: "/design-mode/strategy/index",
+          },
           {
             text: "十八、单一职责",
             link: "/design-mode/srp/index",
